@@ -330,8 +330,8 @@ axis(1)
 axis(2, las=2, labels = seq(0, 1, length=6), at=seq(0, 1, length=6))
 title(xlab="Time", ylab="W", line=2.5)
 abline(v = c(10,20), lty = 3)
-text(5, 1.15, "Phase 1", cex=0.9)
-text(15, 1.15, "Phase 1", cex=0.9)
+text(5, 1.15, "Task 1", cex=0.9)
+text(15, 1.15, "Task 2", cex=0.9)
 text(25, 1.14, "Recovery", cex=0.9)
 ## Task
 lwd_t <- 2
